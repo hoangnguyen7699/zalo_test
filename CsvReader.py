@@ -40,12 +40,14 @@ def read_csv(path, header=True, separation =',', num_skip = 0, dtype=None):
     Parameters
         ----------
         path: string
-            integer indicates the number of printed rows 
+            the path of the csv file
         header: Boolean, deafult True
             bool indicate if the header is already in the csv file. If the csv file does not have 
             header, then the default header will be generated, which are Column1, Column2,....If there
             are multiple columns with the same name, for example Date, then I will transfer them to
             Date1, Date2,...
+        separation: string
+            separator to separate values between columns in csv file
         num_skip: integer, default 0
             The number of line (after counting header) that user want to skip.
         dtype: list, default None

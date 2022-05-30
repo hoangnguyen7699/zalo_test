@@ -46,7 +46,7 @@ print(df.head())
 
 
 print('----------------------------------------------------------------')
-print('AREmove column 1961 ')
+print('REmove column 1961 ')
 df.remove_columns('1961')
 print(df.head())
 
